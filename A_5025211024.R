@@ -1,8 +1,6 @@
 #Soal No1
 #a
-p=0.2
-x=3
-P <- dgeom(x, p)
+P <- dgeom(3, 0.2)
 P
 
 #b 
