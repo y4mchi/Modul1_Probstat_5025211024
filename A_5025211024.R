@@ -27,6 +27,9 @@ probability = dbinom(x=4, n, prob = p, log = FALSE)
 probability
 
 #b
+x=4
+n=20
+p=0.2
 hist(rbinom(x, n, prob = p), xlab = "X", ylab = "Frekuensi", main = "Histogram of Binomial")
 
 #c
@@ -111,6 +114,6 @@ breaks = 50
 hist(data, breaks, main = "5025211024_Widian Sasi Disertasiasiani_A_Dnhistogram")
 
 #c
-t=8
-variance=(t(data))^2
+sd=8
+variance=(sd(data))^2
 variance
