@@ -4,7 +4,8 @@ P <- dgeom(3, 0.2)
 P
 
 #b 
-mean(rgeom(n=10000, prob=0.20) == 3)
+x=3
+mean(rgeom(n=10000, p=0.20) == x)
 
 #c
 Penjelasannya dapat ditemukan di readme
