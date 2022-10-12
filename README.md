@@ -26,6 +26,8 @@ menggunakan fungsi hist()
 <img width="424" alt="image" src="https://user-images.githubusercontent.com/100952724/195359423-4716ce6e-3503-4e27-be7b-9121c0303a18.png">
 
 1e. Menghitung nilai Rataan (μ) dan Varian (σ2) dari distribusi geometrik
+Rataan/Mean =  formula banyak data dibagi dengan peluang kejadian.
+Varian = nilai rataan dan dibagi dengan kuadrat dari peluang kejadian.
 
 <img width="464" alt="image" src="https://user-images.githubusercontent.com/100952724/195360290-71f0fca9-8832-4a1e-a784-ecd3f793a90a.png">
 
@@ -45,6 +47,8 @@ Menggunakan distribusi Binomial dengan memanfaatkan dbinom()
  <img width="427" alt="image" src="https://user-images.githubusercontent.com/100952724/195361847-be14a3b7-3a5e-434f-a0b4-b8f47ec74666.png">
  
  2c. Menghitung nilai Rataan (μ) dan Varian ( σ2 ) dari distribusi binomial
+  Rataan = banyak data dikali dengan peluang kejadian.
+  Varian = nilai rataan dan dikali dengan komplemen dari peluang kejadian.
  
  <img width="379" alt="image" src="https://user-images.githubusercontent.com/100952724/195362453-5ade7f05-cdb2-4068-a67d-adc0a331481a.png">
 
@@ -65,6 +69,8 @@ Nilai dari A berada di dalam area B. Maka dari itu nilai A dan B cenderung sama.
 
 3d.Menghitung nilai Rataan (μ) dan Varian ( σ2 ) dari distribusi poisson
 
+Semua nilainya sama
+
 <img width="247" alt="image" src="https://user-images.githubusercontent.com/100952724/195364413-26c97c9e-273c-45a3-9235-3d2a189a2869.png">
 
 **Penjelasan Soal No4**
@@ -82,6 +88,9 @@ Menggunakan fungsi Hist() dengan angka acak dari Chi-Squaresebagai parameternya.
 <img width="405" alt="image" src="https://user-images.githubusercontent.com/100952724/195365450-b2d9a2b5-42c6-4f59-a760-701d2abf3915.png">
 
 4c. Menghitung nilai Rataan (μ) dan Varian ( σ2 ) dari distribusi Chi-Square
+
+Rataan= Nilai v
+Varian = v dikali 2
 
 <img width="428" alt="image" src="https://user-images.githubusercontent.com/100952724/195365687-61e00499-79da-47d2-9cba-06436bf9348a.png">
 
@@ -105,6 +114,9 @@ Menggunakan fungsi hist(). dengan 10, 100, 1000, dan 10000 sebagai parameternya.
 
 5c. Menghitung nilai Rataan (μ) dan Varian ( σ2 ) dari Distribusi Exponensial untuk n = 100 dan λ = 3
 
+Rataan = parameter angka acak dari distribusi Eksponensial.
+Varian = menggunakan formula sd() atau standar deviasi dengan parameter angka acak dari distribusi Eksponensial dan dikuadratkan.
+
 <img width="491" alt="image" src="https://user-images.githubusercontent.com/100952724/195367023-567ee6c3-1a5c-4394-af63-240799a475fe.png">
 
 **Penjelasan Soal No.6**
@@ -122,6 +134,8 @@ Menggunakan fungsi hist(). dengan 10, 100, 1000, dan 10000 sebagai parameternya.
 <img width="676" alt="image" src="https://user-images.githubusercontent.com/100952724/195368141-f7e529fb-84b8-4f6e-bd5c-4000451b0ef0.png">
 
 6c. Menghitung nilai Varian ( σ2 ) dari hasil generate random nilai Distribusi Normal dengan mengalikan sd yang mana sd adalah standar deviasi. Nilai defaultnya adalah 1.
+
+Menggunakan formula kuadrat dari standar deviasi.
 
 <img width="405" alt="image" src="https://user-images.githubusercontent.com/100952724/195369188-07960c4b-2afb-465c-8186-74dfab8cd2e5.png">
 
